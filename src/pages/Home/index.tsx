@@ -33,6 +33,8 @@ const Home = (): JSX.Element => {
     return newSumAmount;
   }, {} as CartItemsAmount)
 
+  console.log(cartItemsAmount)
+
   useEffect(() => {
     async function loadProducts() {
       // TODO
